@@ -1,9 +1,9 @@
 package hello
 
 import (
-	"rsc.io/quote"
+	"rsc.io/quote/v3"
 )
 
 func Hello() string {
-	return quote.Glass()
+	return quote.GlassV3()
 }
